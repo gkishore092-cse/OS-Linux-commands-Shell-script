@@ -40,14 +40,14 @@ s.n. dasgupta
 ^d
 ```
 ### Display the content of the files
-cat < file1
+cat < file1cat
 ## OUTPUT
 
-
+![Alt text](image.png)
 
 cat < file2
 ## OUTPUT
-
+![Alt text](image-1.png)
 
 # Comparing Files
 cmp file1 file2
@@ -55,11 +55,11 @@ cmp file1 file2
  
 comm file1 file2
  ## OUTPUT
-
+![Alt text](image-2.png)
  
 diff file1 file2
 ## OUTPUT
-
+![Alt text](image-3.png)
 
 #Filters
 
@@ -83,7 +83,7 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
-
+![Alt text](image-4.png)
 
 
 cut -d "|" -f 1 file22
